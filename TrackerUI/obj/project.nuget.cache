@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kwLNf6Q6ZUZRVkNJnR6IsJ4tJ/RMQigUqYoCmCK3JGmTQ1g7jfbUgtRI/+OO1ztVjG99og9LzlztXkl7S074lw==",
+  "dgSpecHash": "1Ww2adWsiWyh4bnNVjAl0HQ/KOEBMXgrr9kgR5E5NKxW+y+6g4cVIn4s4Z1qRtX+oLSKe2UsCLG3Svjw5hYACA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerUI\\TrackerUI.csproj",
+  "projectFilePath": "\\\\wsl.localhost\\Ubuntu\\home\\rohanshanbhag\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerUI\\TrackerUI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

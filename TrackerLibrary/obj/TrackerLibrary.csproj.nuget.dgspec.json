@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerLibrary\\TrackerLibrary.csproj": {}
+    "\\\\wsl.localhost\\Ubuntu\\home\\rohanshanbhag\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerLibrary\\TrackerLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerLibrary\\TrackerLibrary.csproj": {
+    "\\\\wsl.localhost\\Ubuntu\\home\\rohanshanbhag\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerLibrary\\TrackerLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerLibrary\\TrackerLibrary.csproj",
+        "projectUniqueName": "\\\\wsl.localhost\\Ubuntu\\home\\rohanshanbhag\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerLibrary\\TrackerLibrary.csproj",
         "projectName": "TrackerLibrary",
-        "projectPath": "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerLibrary\\TrackerLibrary.csproj",
+        "projectPath": "\\\\wsl.localhost\\Ubuntu\\home\\rohanshanbhag\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerLibrary\\TrackerLibrary.csproj",
         "packagesPath": "C:\\Users\\rohan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerLibrary\\obj\\",
+        "outputPath": "\\\\wsl.localhost\\Ubuntu\\home\\rohanshanbhag\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,8 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
