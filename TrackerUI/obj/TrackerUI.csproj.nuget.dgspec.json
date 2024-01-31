@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerLibrary\\TrackerLibrary.csproj": {}
+    "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerUI\\TrackerUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerLibrary\\TrackerLibrary.csproj": {
+    "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerUI\\TrackerUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerLibrary\\TrackerLibrary.csproj",
-        "projectName": "TrackerLibrary",
-        "projectPath": "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerLibrary\\TrackerLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerUI\\TrackerUI.csproj",
+        "projectName": "TrackerUI",
+        "projectPath": "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerUI\\TrackerUI.csproj",
         "packagesPath": "C:\\Users\\rohan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerLibrary\\obj\\",
+        "outputPath": "C:\\Users\\rohan\\Documents\\CS_Pathram\\Tournament_Tracker\\TrackerUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net8.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
             "projectReferences": {}
           }
         },
@@ -36,8 +36,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -52,6 +52,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
