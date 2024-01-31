@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TournamentViewerForm));
             tournamentName = new Label();
             headerLabel = new Label();
             roundLabel = new Label();
@@ -217,6 +218,7 @@
             Controls.Add(headerLabel);
             Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             ForeColor = Color.ForestGreen;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(5, 6, 5, 6);
             Name = "TournamentViewerForm";
             Text = "Tournament Viewer";

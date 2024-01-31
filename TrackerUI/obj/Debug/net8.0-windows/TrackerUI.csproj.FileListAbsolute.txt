@@ -1,0 +1,17 @@
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\bin\Debug\net8.0-windows\TrackerUI.exe
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\bin\Debug\net8.0-windows\TrackerUI.deps.json
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\bin\Debug\net8.0-windows\TrackerUI.runtimeconfig.json
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\bin\Debug\net8.0-windows\TrackerUI.dll
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\bin\Debug\net8.0-windows\TrackerUI.pdb
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.TournamentViewerForm.resources
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.csproj.GenerateResource.cache
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.AssemblyInfoInputs.cache
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.AssemblyInfo.cs
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.csproj.CoreCompileInputs.cache
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.sourcelink.json
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.dll
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\obj\Debug\net8.0-windows\refint\TrackerUI.dll
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.pdb
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.genruntimeconfig.cache
+C:\Users\rohan\Documents\CS_Pathram\Tournament_Tracker\TrackerUI\obj\Debug\net8.0-windows\ref\TrackerUI.dll
