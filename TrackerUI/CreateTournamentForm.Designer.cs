@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateTournamentForm));
             headerLabel = new Label();
             tournamentNameValue = new TextBox();
             tournamentNameLabel = new Label();
@@ -266,7 +265,6 @@
             Controls.Add(tournamentNameLabel);
             Controls.Add(headerLabel);
             Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(5, 6, 5, 6);
             Name = "CreateTournamentForm";
             Text = "Create Tournament";

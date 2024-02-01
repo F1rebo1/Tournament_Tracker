@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateTeamForm));
             teamNameValue = new TextBox();
             teamNameLabel = new Label();
             headerLabel = new Label();
@@ -291,7 +290,6 @@
             Controls.Add(teamNameLabel);
             Controls.Add(headerLabel);
             Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(5, 6, 5, 6);
             Name = "CreateTeamForm";
             Text = "Form1";
