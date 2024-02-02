@@ -23,5 +23,19 @@ namespace TrackerLibrary{
         /// If specified, this records the prize amount as a percentage value
         /// </summary>
         public double PrizePercentage;
+
+        public PrizeModel(){}
+
+        public PrizeModel(string placeName, string placeNumber, string prizeAmount, string prizePercentage){
+            this.PlaceName = placeName;
+
+            this.PlaceNumber = 0;
+            this.PrizeAmount = 0m;
+            this.PrizePercentage = 0;
+
+            bool checkPlaceNumber = int.TryParse(placeNumber, out this.PlaceNumber);
+            bool checkPrizeAmount = decimal.TryParse(prizeAmount, out this.PrizeAmount);
+            bool checkPrizePercentage = double.TryParse(prizePercentage, out this.PrizePercentage);
+        }
     }
 }
