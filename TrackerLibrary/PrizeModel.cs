@@ -3,6 +3,10 @@ using System;
 namespace TrackerLibrary{
     public class PrizeModel{
         /// <summary>
+        /// Represents a unique identifier for the prize
+        /// </summary>
+        public int id { get; set; }
+        /// <summary>
         /// This records the place that this prize is for
         /// </summary>
         public int PlaceNumber;
