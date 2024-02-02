@@ -1,7 +1,9 @@
 ﻿using System;
 
-namespace TrackerLibrary{
-	public class TeamModel{
+namespace TrackerLibrary.Models
+{
+    public class TeamModel
+    {
         /// <summary>
         /// This records a list of people that are part of the same team
         /// </summary>
@@ -9,6 +11,6 @@ namespace TrackerLibrary{
         /// <summary>
         /// This records the name used to refer to the list of people on the same team
         /// </summary>
-        public string TeamName {get; set;}
+        public string TeamName { get; set; }
     }
 }

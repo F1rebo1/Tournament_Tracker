@@ -1,7 +1,9 @@
 using System;
 
-namespace TrackerLibrary{
-    public class MatchupEntryModel{
+namespace TrackerLibrary.Models
+{
+    public class MatchupEntryModel
+    {
         /// <summary>
         /// Represents one competing team within the matchup
         /// </summary>

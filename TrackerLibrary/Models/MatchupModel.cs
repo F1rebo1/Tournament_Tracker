@@ -1,7 +1,9 @@
 using System;
 
-namespace TrackerLibrary{
-    public class MatchupModel{
+namespace TrackerLibrary.Models
+{
+    public class MatchupModel
+    {
         /// <summary>
         /// This records the List of matchup entries. Each index of this
         /// list represents all matches for that round of the tournament
