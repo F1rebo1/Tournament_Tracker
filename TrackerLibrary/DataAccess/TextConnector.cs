@@ -11,6 +11,7 @@ namespace TrackerLibrary.DataAccess
     {
         public PrizeModel CreatePrize(PrizeModel model)
         {
+            Console.WriteLine(TextConnectorProcessor.FullFilePath("pickle"));
             model.id = 1;
             return model;
         }
