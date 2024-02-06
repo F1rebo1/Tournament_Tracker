@@ -13,6 +13,8 @@ namespace TrackerLibrary.DataAccess{
         }
 
         public static List<string> LoadFile(this string file){
+            if(!File.Exists(file)) return new List<string>();
+            return File.ReadAllLines(file).ToList();
         }
     }
 }
