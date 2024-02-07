@@ -35,7 +35,7 @@ namespace TrackerLibrary.DataAccess
             List<PersonModel> people = PeopleFile.FullFilePath().LoadFile().ConvertToPersonModels();
 
             int currentPerson = 1;
-            if(people.Count > 0) currentPerson = people.Count() + 1;
+            if (people.Count > 0) currentPerson = people.OrderByDescending(x => x.id).First().id + 1;
 
             person.id = currentPerson;
 
