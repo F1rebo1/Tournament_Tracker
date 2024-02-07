@@ -12,6 +12,7 @@ namespace TrackerLibrary.DataAccess
     {
 
         private const string PrizesFile = "PrizeModels.csv";
+
         public PrizeModel CreatePrize(PrizeModel model)
         {
             List<PrizeModel> prizes = PrizesFile.FullFilePath().LoadFile().ConvertToPrizeModels();
@@ -26,6 +27,12 @@ namespace TrackerLibrary.DataAccess
             prizes.SaveToPrizeFile(PrizesFile);
 
             return model;
+        }
+
+        private const string PeopleFile = "PersonModels.csv";
+        public PersonModel CreatePerson(PersonModel person)
+        {
+            List<PersonModel> people = PeopleFile.FullFilePath().LoadFile().ConvertToPersonModels();
         }
     }
 }

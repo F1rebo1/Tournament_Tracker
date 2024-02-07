@@ -20,5 +20,18 @@ namespace TrackerLibrary.Models
         /// This records the phone number of the user
         /// </summary>
         public string CellphoneNumber;
+        /// <summary>
+        /// This records the id of an added person
+        /// </summary>
+        public int id { get; set; }
+
+        public PersonModel(){}
+
+        public PersonModel(string firstName, string lastName, string emailAddress, string cellphoneNumber){
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.EmailAddress = emailAddress;
+            this.CellphoneNumber = cellphoneNumber;
+        }
     }
 }

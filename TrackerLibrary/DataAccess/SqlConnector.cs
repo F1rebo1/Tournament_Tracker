@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using TrackerLibrary.Models;
 using System.Data.SqlClient;
 using Dapper;
+using System.Reflection;
 
 namespace TrackerLibrary.DataAccess
 {
@@ -33,6 +34,25 @@ namespace TrackerLibrary.DataAccess
                 model.id = p.Get<int>("@id");
 
                 return model;
+            }
+        }
+
+        public PersonModel CreatePerson(PersonModel person)
+        {
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString("DefaultConnection")))
+            {
+                var p = new DynamicParameters();
+                p.Add("@FirstName", person.FirstName);
+                p.Add("@LastName", person.LastName);
+                p.Add("@EmailAddress", person.EmailAddress);
+                p.Add("@CellphoneNumber", person.CellphoneNumber);
+                p.Add("@id", 0, dbType: DbType.Int32, direction: ParameterDirection.Output);
+
+                connection.Execute("dbo.spPeople_Insert", p, commandType: CommandType.StoredProcedure);
+
+                person.id = p.Get<int>("@id");
+
+                return person;
             }
         }
     }

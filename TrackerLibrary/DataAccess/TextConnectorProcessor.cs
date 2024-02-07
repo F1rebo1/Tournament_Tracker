@@ -45,5 +45,13 @@ namespace TrackerLibrary.DataAccess.TextHelpers{
 
             File.WriteAllLines(fileName.FullFilePath(), lines);
         }
+
+        public static List<PersonModel> ConvertToPersonModels(this List<string> lines){
+            List<PersonModel> output = new List<PersonModel>();
+
+
+
+            return output;
+        }
     }
 }
