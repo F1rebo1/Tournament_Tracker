@@ -33,6 +33,17 @@ namespace TrackerLibrary.DataAccess
         public PersonModel CreatePerson(PersonModel person)
         {
             List<PersonModel> people = PeopleFile.FullFilePath().LoadFile().ConvertToPersonModels();
+
+            int currentPerson = 1;
+            if(people.Count > 0) currentPerson = people.Count() + 1;
+
+            person.id = currentPerson;
+
+            people.Add(person);
+
+            people.SaveToPeopleFile(PeopleFile);
+
+            return person;
         }
     }
 }
