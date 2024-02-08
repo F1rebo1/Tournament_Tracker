@@ -23,7 +23,14 @@ namespace TrackerLibrary.Models
         /// <summary>
         /// This records the id of an added person
         /// </summary>
+        /// 
         public int id { get; set; }
+
+        public string FullName{
+            get{
+                return $"{ FirstName } { LastName }";
+            }
+        }
 
         public PersonModel(){}
 

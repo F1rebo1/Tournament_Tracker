@@ -14,9 +14,32 @@ namespace TrackerUI
 {
     public partial class CreateTeamForm : Form
     {
+        private List<PersonModel> availableTeamMembers = new List<PersonModel>();
+        private List<PersonModel> selectedTeamMembers = new List<PersonModel>();
+
+        private void CreateSampleData(){
+            availableTeamMembers.Add(new PersonModel { FirstName = "Rohan", LastName = "Shanbhag"} );
+            availableTeamMembers.Add(new PersonModel { FirstName = "Bob", LastName = "Jones" });
+
+            selectedTeamMembers.Add(new PersonModel { FirstName = "Ra", LastName = "Sudeep" });
+            selectedTeamMembers.Add(new PersonModel { FirstName = "Gordon", LastName = "Ramsay" });
+        }
+
+        private void WireUpLists(){
+            selectTeamMemberDropDown.DataSource = availableTeamMembers;
+            selectTeamMemberDropDown.DisplayMember = "FullName";
+
+            teamMembersListBox.DataSource = selectedTeamMembers;
+            teamMembersListBox.DisplayMember = "FullName";
+        }
+
         public CreateTeamForm()
         {
             InitializeComponent();
+
+            CreateSampleData();
+
+            WireUpLists();
         }
 
         private void createMemberButton_Click(object sender, EventArgs e)
