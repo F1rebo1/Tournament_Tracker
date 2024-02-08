@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TrackerLibrary.Models;
 using TrackerLibrary.DataAccess.TextHelpers;
+using System.Data;
 
 namespace TrackerLibrary.DataAccess
 {
@@ -44,6 +45,12 @@ namespace TrackerLibrary.DataAccess
             people.SaveToPeopleFile(PeopleFile);
 
             return person;
+        }
+
+        public List<PersonModel> GetPerson_All()
+        {
+            List<PersonModel> output = PeopleFile.FullFilePath().LoadFile().ConvertToPersonModels();
+            return output;
         }
     }
 }
