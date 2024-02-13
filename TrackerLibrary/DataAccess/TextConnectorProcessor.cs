@@ -76,7 +76,7 @@ namespace TrackerLibrary.DataAccess.TextHelpers{
             List<string> lines = new List<string>();
 
             foreach(PersonModel p in people){
-                lines.Add($"{ p.id },{ p.FirstName },{ p.FirstName },{ p.EmailAddress },{ p.CellphoneNumber }");
+                lines.Add($"{ p.id },{ p.FirstName },{ p.LastName },{ p.EmailAddress },{ p.CellphoneNumber }");
             }
 
             File.WriteAllLines(fileName.FullFilePath(),lines);

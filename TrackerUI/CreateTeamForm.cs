@@ -66,7 +66,7 @@ namespace TrackerUI
                 emailValue.Text = "";
                 cellphoneValue.Text = "";
 
-                availableTeamMembers.Add(person);
+                selectedTeamMembers.Add(person);
 
                 WireUpLists();
             }
@@ -92,21 +92,27 @@ namespace TrackerUI
         private void addMemberButton_Click(object sender, EventArgs e)
         {
             PersonModel p = (PersonModel)selectTeamMemberDropDown.SelectedItem;
-            
-            availableTeamMembers.Remove(p);
-            selectedTeamMembers.Add(p);
 
-            WireUpLists();
+            if (p != null)
+            {
+                availableTeamMembers.Remove(p);
+                selectedTeamMembers.Add(p);
+
+                WireUpLists();
+            }
         }
 
-        private void deleteSelectedMemberButton_Click(object sender, EventArgs e)
+        private void removeSelectedMemberButton_Click(object sender, EventArgs e)
         {
             PersonModel p = (PersonModel)teamMembersListBox.SelectedItem;
 
-            availableTeamMembers.Add(p);
-            selectedTeamMembers.Remove(p);
+            if (p != null)
+            {
+                availableTeamMembers.Add(p);
+                selectedTeamMembers.Remove(p);
 
-            WireUpLists();
+                WireUpLists();
+            }
         }
     }
 }
