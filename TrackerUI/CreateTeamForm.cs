@@ -66,7 +66,9 @@ namespace TrackerUI
                 emailValue.Text = "";
                 cellphoneValue.Text = "";
 
-                //selectTeamMemberDropDown.Refresh();
+                availableTeamMembers.Add(person);
+
+                WireUpLists();
             }
             /*
             else {
